@@ -1,0 +1,15 @@
+.image {
+	max-width: 100%;
+}
+
+.mediaism {
+	&-slider {
+		@media screen and (min-width: 540px) {
+			height: 320px;
+		}
+		@media screen and (min-width: 768px) {
+			height: 540px;
+		}
+	}
+}
+
